@@ -1,0 +1,22 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Aryan",
+    "email": "aryan.dhiman@yahoo.com",
+    "points": 10
+}
+###
+
+POST http://localhost:8080/dogsits
+Content-Type: application/json
+
+{
+    "description": "Watch my dog while I'm at work",
+    "location": "123 Maple Street",
+    "startTime": "2025-06-10T09:00:00",
+    "endTime": "2025-06-10T13:00:00",
+    "owner": {
+        "id": 1
+    }
+}
